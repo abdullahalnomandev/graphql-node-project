@@ -1,0 +1,14 @@
+export const rootTypeDefs = `
+  type Query {
+    _empty: String
+  }
+
+  type Mutation {
+    _empty: String
+  }
+
+  schema {
+    query: Query
+    mutation: Mutation
+  }
+`;
